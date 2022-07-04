@@ -1,23 +1,41 @@
 <!DOCTYPE html>
-<html style="background-color:#f7f5f0;">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Manuel Sousa</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+      html {
+        background-color: #f7f5f0;
+      }
+
+      body {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 5px;
+      }
+
+      .my_footer {
+        background-color: #f7f5f0;
+      }
+    </style>
   </head>
 
   <body>
     <nav class="level" aria-label="main navigation">
-      <a class="has-text-left" href="mailto:manuelgcsousa@gmail.com">
-        <h1 style="border-bottom: 2px solid #000; padding-bottom: 3px" class="navbar-item title">
-          &nbsp;manuelgcsousa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <h1 class="navbar-item title">
+        manuelgcsousa
+      </h1>
+      <a class="has-text-right" href="mailto:manuelgcsousa@gmail.com">
+        <h1 class="navbar-item subtitle">
+          contact
         </h1>
       </a>
     </nav>
 
     <section class="section">
-      <div style="margin-top: 2.5rem" class="container has-text-centered">
+      <div class="container has-text-centered">
         <h1 class="title">
           Manuel Sousa
         </h1>
@@ -27,12 +45,15 @@
             I'm a Software Engineer at
             <a class="has-text-info-dark" href="https://tonicapp.io">TonicApp</a>.
           </p>
-          <p class="mt-6">
-            <a class="m-2 has-background-info-dark has-text-primary-light" href="https://linkedin.com/in/manuelgcsousa/">&nbsp;linkedin&nbsp;</a>
-            <a class="m-2 has-background-info-dark has-text-primary-light" href="https://github.com/manuelgcsousa">&nbsp;github&nbsp;</a>
-          </p>
         </div>
       </div>
     </section>
+
+    <footer class="footer my_footer">
+      <div class="content has-text-centered">
+        <a class="mx-2 has-background-info-dark has-text-primary-light" href="https://linkedin.com/in/manuelgcsousa/">&nbsp;linkedin&nbsp;</a>
+        <a class="mx-2 has-background-info-dark has-text-primary-light" href="https://github.com/manuelgcsousa">&nbsp;github&nbsp;</a>
+      </div>
+    </footer>
   </body>
 </html>
